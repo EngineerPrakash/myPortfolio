@@ -170,3 +170,11 @@ p { margin: 0; }
 .t-item { padding-bottom: 28px; }
 .t-item:last-child { padding-bottom: 0; }
 .card strong { color: var(--text); }
+
+.highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 36px; }
+.hl { border-left: 3px solid var(--accent); background: var(--card); border-radius: 0 14px 14px 0; padding: 22px 26px; }
+.hl strong { font-size: 1.1rem; }
+.hl p { color: var(--muted); margin-top: 6px; }
+.btn-outline { border: 1px solid rgba(255,255,255,.6); color: #fff; margin: 28px 0 0 10px; }
+.btn-outline:hover { background: rgba(255,255,255,.12); }
+.avatar-ring img { padding: 0; }
