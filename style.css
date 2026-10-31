@@ -165,3 +165,8 @@ p { margin: 0; }
     .nav-links a:not(.nav-cta) { display: none; }
     .section { padding: 70px 0; }
 }
+
+.body-text + .body-text { margin-top: 18px; }
+.t-item { padding-bottom: 28px; }
+.t-item:last-child { padding-bottom: 0; }
+.card strong { color: var(--text); }
