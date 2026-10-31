@@ -1,55 +1,148 @@
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <meta charset="utf-8">
-            <title>Prakash Pandey</title>
-            <link rel="stylesheet" href="style.css">
-            <link rel="icon" href="favicon.ico">
-            <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
-                rel="stylesheet">
-        </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prakash Pandey | Automation Test Engineer</title>
+    <meta name="description" content="Prakash Pandey - Automation Test Engineer & Programmer with 7+ years of experience in web and API test automation.">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <body>
-            <div class="top-container">
-                <h1>I'm Prakash</h1>
-                <p class="title-job">Automation Test Engineer & Programmer</p>
-            </div>
-            <div class="middle-container">
-                <div class="profile">
-                        <img class="profile-img" src="images/male-user.png" alt="">
-                    <h2>Hello.</h2>
-                    <p class="intro" > I am software engineer by profession and I have been doing Automation testing for the past 7 years and 3 Months which imvolves Automating web applications and apis. I am currently working for cognizant which is US based MNC.
-                    </p>
-                </div>
-                <hr>
-                <div class="skills">
-                    <h2>My Skills.</h2>
-                    <div class="skill-row">
-                        <img class="myskill-img" src="images/skills.png" alt="">
-                        <h3>Techincal Knowledge</h3>
-                        <p class="myskil-desc">I have experience of doing Automation for web pages using selenium with C# and Java. I have done automation for angular based application using protractor tool. I have experience of automating the APis using postman</p>
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <a href="#home" class="logo">prakash<span>.</span></a>
+            <nav class="nav-links" aria-label="Main">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#new-section">Highlights</a>
+                <a href="#contact" class="nav-cta">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <p class="eyebrow">Hello, I'm</p>
+                    <h1>Prakash <span class="grad">Pandey</span></h1>
+                    <p class="role">Automation Test Engineer &amp; Programmer</p>
+                    <p class="lead">I build reliable automation for web applications and APIs, helping teams ship quality software faster.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Get in touch</a>
+                        <a href="#skills" class="btn btn-ghost">View my skills</a>
                     </div>
-                    <div class="skill-row">
-                        <img class="specialskill-img" src="images/chili-pepper.png" alt="">
+                </div>
+                <div class="hero-visual">
+                    <div class="avatar-ring">
+                        <img src="images/male-user.png" alt="Portrait of Prakash Pandey">
+                    </div>
+                    <div class="chip chip-1">Selenium</div>
+                    <div class="chip chip-2">Java &amp; C#</div>
+                    <div class="chip chip-3">Postman</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS -->
+        <section class="stats">
+            <div class="container stats-grid">
+                <div class="stat"><strong>7+</strong><span>Years of experience</span></div>
+                <div class="stat"><strong>Web &amp; API</strong><span>Automation focus</span></div>
+                <div class="stat"><strong>Banking</strong><span>Domain expertise</span></div>
+                <div class="stat"><strong>Cognizant</strong><span>Current company</span></div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="container narrow">
+                <p class="section-tag">About me</p>
+                <h2>Software engineer, obsessed with quality.</h2>
+                <p class="body-text">I am a software engineer by profession and have been doing automation testing for the past 7 years and 3 months, automating web applications and APIs. I currently work for Cognizant, a US-based MNC.</p>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section alt">
+            <div class="container">
+                <p class="section-tag">What I do</p>
+                <h2>Skills &amp; expertise</h2>
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-icon">&lt;/&gt;</div>
+                        <h3>Technical Knowledge</h3>
+                        <p>Web automation with Selenium using C# and Java. Automation of Angular-based applications using Protractor. API automation using Postman.</p>
+                        <ul class="tags">
+                            <li>Selenium</li><li>C#</li><li>Java</li><li>Protractor</li><li>Postman</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">$</div>
                         <h3>Domain Knowledge</h3>
-                        <p class="specialskill-des"> I possess the knowlegde in banking domain and have dealt in the areas of customer, accounts, Loans ,credit cards etc.I have working experience in corebanking with T24 Temenos </p>
+                        <p>Strong knowledge of the banking domain, covering customers, accounts, loans and credit cards. Working experience in core banking with Temenos T24.</p>
+                        <ul class="tags">
+                            <li>Banking</li><li>Loans</li><li>Credit Cards</li><li>Temenos T24</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section">
+            <div class="container narrow">
+                <p class="section-tag">Career</p>
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <div class="t-item">
+                        <span class="t-dot"></span>
+                        <h3>Automation Test Engineer</h3>
+                        <p class="t-meta">Cognizant &middot; Present</p>
+                        <p>Automating web applications and APIs, working in the banking domain with core banking systems.</p>
                     </div>
                 </div>
-                <hr>
-                <div class="contact-me">
-                    <h2>Get In Touch</h2>
-                    <h3>If you love Automation and Programming.</h3>
-                    <p class ="contact-message">Reach out to me by pressing contact me and we will talk about the automation frameworks and testing.</p>
-                   <form accept-charset="UTF-8" action="https://usebasin.com/f/123456xabcdef" enctype="multipart/form-data" method="POST">
-                  <a href="mailto:prakashkkpandey@gmail.com" class="btn" >CONTACT ME</a>                                  
+            </div>
+        </section>
+
+        <!-- NEW SECTION (placeholder - replace with your text) -->
+        <section id="new-section" class="section alt">
+            <div class="container narrow">
+                <p class="section-tag">New section</p>
+                <h2>Section title goes here</h2>
+                <p class="body-text">Placeholder text. Share your content and it will replace this paragraph.</p>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-box">
+                    <h2>Let's talk automation.</h2>
+                    <p>If you love automation and programming, reach out and we can talk about automation frameworks and testing.</p>
+                    <a href="mailto:prakashkkpandey@gmail.com" class="btn btn-light">Contact me</a>
                 </div>
             </div>
-            <div class="bottom-container">
-                <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-                <a class="footer-link" href="https://twitter.com/">twitter</a>
-                <a class="footer-link" href="https://facebook.com/">Facebook</a>
-                <a class="footer-link" href="https://instagram.com/">Instagram</a>
-                <p class ="copyright">© 2020 Prakash Pandey<p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Prakash Pandey</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/">LinkedIn</a>
+                <a href="https://twitter.com/">Twitter</a>
+                <a href="https://facebook.com/">Facebook</a>
+                <a href="https://instagram.com/">Instagram</a>
             </div>
-        </body>
-        </html>
+        </div>
+    </footer>
+</body>
+</html>
